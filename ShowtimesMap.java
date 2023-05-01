@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class KevinT here.
+ * Write a description of class ShowtimesMap here.
  *
- * @author (Kevin)
+ * @author (your name)
  * @version (a version number or a date)
  */
-public class KevinT
+public class ShowtimesMap
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class KevinT
+     * Constructor for objects of class ShowtimesMap
      */
-    public KevinT()
+    public ShowtimesMap()
     {
         // initialise instance variables
         x = 0;

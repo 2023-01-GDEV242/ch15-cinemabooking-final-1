@@ -3,7 +3,7 @@
  * Write a description of class CinemaBookingSystem here.
  *
  * @author Don "Ghengis_Don" Santiago
- * @version Alpha May 1 2023
+ * @version Alpha May 1st 2023
  */
 public class CinemaBookingSystem
 {

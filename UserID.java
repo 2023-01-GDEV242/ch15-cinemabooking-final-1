@@ -2,8 +2,8 @@
 /**
  * Store personal information of User based on input data including first name, last name, and date of birth
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Don "Ghengis_Don" Santiago
+ * @version Alpha May 1st 2023
  */
 public class UserID extends CinemaBookingSystem
 {

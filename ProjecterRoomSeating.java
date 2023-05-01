@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class JuanJ here.
+ * Write a description of class ProjecterRoomSeating here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class JuanJ
+public class ProjecterRoomSeating
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class JuanJ
+     * Constructor for objects of class ProjecterRoomSeating
      */
-    public JuanJ()
+    public ProjecterRoomSeating()
     {
         // initialise instance variables
         x = 0;
