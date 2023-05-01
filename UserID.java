@@ -1,22 +1,23 @@
 
 /**
- * Write a description of class KevinT here.
+ * Store personal information of User based on input data including first name, last name, and date of birth
  *
- * @author (Kevin)
+ * @author (your name)
  * @version (a version number or a date)
  */
-public class KevinT
+public class UserID extends CinemaBookingSystem
 {
     // instance variables - replace the example below with your own
-    private int x;
-
+    private String userFirst; //this is user first name
+    private String userLast; //this is user last name 
+    private Date dob; //this is users date of birth
+    
     /**
-     * Constructor for objects of class KevinT
+     * Constructor for objects of class UserID
      */
-    public KevinT()
+    public UserID(String userFirst,String userLast,Date dob)
     {
         // initialise instance variables
-        x = 0;
     }
 
     /**

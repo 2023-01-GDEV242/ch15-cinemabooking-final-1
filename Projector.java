@@ -1,23 +1,14 @@
 
 /**
- * Write a description of class DonDemo here.
+ * Abstract class Projector - write a description of the class here
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (your name here)
+ * @version (version number or date here)
  */
-public class DonDemo extends CinemaBookingSystem
+public abstract class Projector extends Alert
 {
     // instance variables - replace the example below with your own
     private int x;
-
-    /**
-     * Constructor for objects of class DonDemo
-     */
-    public DonDemo()
-    {
-        // initialise instance variables
-        x = 0;
-    }
 
     /**
      * An example of a method - replace this comment with your own

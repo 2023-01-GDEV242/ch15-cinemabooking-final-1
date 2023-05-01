@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class KevinT here.
+ * Write a description of class Alert here.
  *
- * @author (Kevin)
+ * @author (your name)
  * @version (a version number or a date)
  */
-public class KevinT
+public class Alert extends CinemaBookingSystem
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class KevinT
+     * Constructor for objects of class Alert
      */
-    public KevinT()
+    public Alert()
     {
         // initialise instance variables
         x = 0;

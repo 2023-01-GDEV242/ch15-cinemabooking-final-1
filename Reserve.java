@@ -1,23 +1,14 @@
 
 /**
- * Write a description of class KevinT here.
+ * Abstract class Reserve - write a description of the class here
  *
- * @author (Kevin)
- * @version (a version number or a date)
+ * @author (your name here)
+ * @version (version number or date here)
  */
-public class KevinT
+public abstract class Reserve extends Alert
 {
     // instance variables - replace the example below with your own
     private int x;
-
-    /**
-     * Constructor for objects of class KevinT
-     */
-    public KevinT()
-    {
-        // initialise instance variables
-        x = 0;
-    }
 
     /**
      * An example of a method - replace this comment with your own
