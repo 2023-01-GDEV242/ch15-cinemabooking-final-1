@@ -2,7 +2,7 @@
 /**
  * Write a description of class KevinT here.
  *
- * @author (your name)
+ * @author (Kevin)
  * @version (a version number or a date)
  */
 public class KevinT
