@@ -53,7 +53,7 @@ public abstract class Showtime extends Alert
         screening.put("30","Joker");
 
         
-        String theater = screening.get("Pixar");
+        String theater = screening.get("Mario");
         System.out.println(theater);
         return theater;
     }
