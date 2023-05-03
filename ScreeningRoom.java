@@ -1,45 +1,48 @@
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Iterator;
+
+
 /**
  * Write a description of class ScreeningRoom here.
  *
  * @author (Kevin Teixeira)
  * @version (May 5 2023)
  */
-public class ScreeningRoom
+public class ScreeningRoom extends FilmTitles
 {
     // instance variables - replace the example below with your own
-    private int ScreeningRoom;
-    private int seats;
+    
     /**
      * Constructor for objects of class ScreeningRoom
      */
     public ScreeningRoom()
     {
         // initialise instance variables
-        Scanner in = new Scanner(System.in);
-        System.out.print("How many seats can we reserve?");
-        int k = in.nextInt();
-        System.out.print("How many seats are occupied?");
-        int n = in.nextInt();
+        int[] rowLength = {
+            5, 9, 13,
+            13, 13, 13,
+        };
+        
+        
     }
 
     /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * this info is the array in x and y where the first array gives us the 
+     * length of the room the second gives up the depth of the room
      */
-    public int sampleMethod(int y)
+    public Arrays seats()
     {
         // Draw first array
-        int[] seats = new int[seats];
-        for (int i = 0; i < seats.length; i++)
-        seats[i] = i + 1;
+       int [][] seats = new int[10][];
+       for (int i=0; i<10; i++)
+           seats[i] = new int[7];
+        System.out.println(seats.length);
+        System.out.println(seats[0].length);
+            
+        }
+}
         
-        //Draw second array
-        int[] result = new int[seats];
-        for (int i = 0; i < result.length; i++)
-        System.out.println("Sorry, these seats are taken.");
-}
-}
+        
+    
+
 
