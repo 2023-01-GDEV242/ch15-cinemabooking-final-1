@@ -17,7 +17,7 @@ public class ScreeningRoom extends FilmTitles
      */
     public ScreeningRoom()
     {
-        // initialise instance variables
+        // initialize number of rows
         int[] rowLength = {
             5, 9, 13,
             13, 13, 13,

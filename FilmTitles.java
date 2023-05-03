@@ -26,7 +26,7 @@ public class FilmTitles
     
         System.out.println("The movies available are "+Films);
     
-        BufferedReader br=new BufferedReader(newInputStreamReader(System.in));
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
         String element;
         int position, choice=0;
     
