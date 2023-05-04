@@ -17,7 +17,7 @@ public class ScreeningRoom extends FilmTitles
      */
     public ScreeningRoom()
     {
-        // initialize number of rows
+        // initialise instance variables
         int[] rowLength = {
             5, 9, 13,
             13, 13, 13,
@@ -38,7 +38,10 @@ public class ScreeningRoom extends FilmTitles
            seats[i] = new int[7];
         System.out.println(seats.length);
         System.out.println(seats[0].length);
-            
+        System.out.println("This seat is unavailable");
+            return null;
+       
+        
         }
 }
         
